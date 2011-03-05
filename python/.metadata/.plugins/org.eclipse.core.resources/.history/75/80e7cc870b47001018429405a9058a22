@@ -1,0 +1,47 @@
+import urllib
+import codecs
+from BeautifulSoup import BeautifulSoup, Tag
+from sys import argv
+import re,time
+
+class Translate:
+    def Start(self):
+        self._get_html_sourse()
+        self._get_content("tb1")
+        self._remove_tag()
+        self.print_result()
+
+    def _get_html_sourse(self):
+        word=argv[1] if len(argv)>1 else ''
+        url="http://www.putclub.com/article.php?articleid=4672" 
+        self.htmlsourse=unicode(urllib.urlopen(url).read(),"gbk","ignore").encode("utf-8","ignore")
+#        print self.htmlsourse
+        
+    def _get_content(self,div_id):
+        soup=BeautifulSoup("".join(self.htmlsourse))
+        self.data=str(soup.find("table",{"class":div_id}))
+        print self.data
+        
+        print "------------"
+        
+        soup2=BeautifulSoup(self.data)
+        title=soup2.findAll("td", {"id":"table_t"});
+        print title
+        self.titles=list()
+        for t in title:
+            self.titles.insert(t.getText())
+        print self.titles
+        
+            
+    def _remove_tag(self):
+        soup=BeautifulSoup(self.data)
+        self.outtext=''.join([element  for element in soup.recursiveChildGenerator() if isinstance(element,unicode)])
+
+    def print_result(self):
+        for item in range(1,10):
+            self.outtext=self.outtext.replace(str(item),"\n%s" % str(item))
+        self.outtext=self.outtext.replace("  ","\n")
+        print self.outtext
+
+if __name__=="__main__":
+     Translate().Start()

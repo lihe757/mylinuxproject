@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project socket ****
+
+make all 
+Building file: ../server.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"server.d" -MT"server.d" -o"server.o" "../server.c"
+../server.c: In function ‘main’:
+../server.c:36: warning: pointer targets in passing argument 3 of ‘accept’ differ in signedness
+/usr/include/sys/socket.h:214: note: expected ‘socklen_t * __restrict__’ but argument is of type ‘int *’
+Finished building: ../server.c
+ 
+Building target: socket
+Invoking: GCC C Linker
+gcc  -o"socket"  ./server.o   
+Finished building target: socket
+ 

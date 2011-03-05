@@ -1,0 +1,21 @@
+'''
+Created on 2011-3-3
+
+@author: lihex
+'''
+def factorial(number):
+    if number==1:
+        return 1
+    return number*factorial(number-1)
+def sum_toE(n):
+    retv=2.0
+    for x in range(2,n):
+        retv += float(1/factorial(x))
+        print retv
+    return retv   
+        
+
+        
+if __name__ == '__main__':
+    retv = sum_toE(6).__float__() 
+    print retv

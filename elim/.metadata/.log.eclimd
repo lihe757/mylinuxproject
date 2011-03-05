@@ -1,0 +1,69 @@
+2011-02-15 17:23:04,940 INFO  [org.eclim.eclipse.AbstractEclimApplication] Workspace: /home/lihex/workspace/elim
+2011-02-15 17:23:04,943 INFO  [org.eclim.eclipse.AbstractEclimApplication] Starting eclim...
+2011-02-15 17:23:04,943 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim
+2011-02-15 17:23:04,976 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim.core
+2011-02-15 17:23:05,409 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2011-02-15 17:23:05,411 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.maven
+2011-02-15 17:23:05,413 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2011-02-15 17:23:05,414 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.ant
+2011-02-15 17:23:05,415 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2011-02-15 17:23:05,415 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loaded plugin org.eclim.core
+2011-02-15 17:23:05,419 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim Server Started on port 9091.
+2011-02-15 17:23:05,975 WARN  [org.eclim.plugin.jdt.PluginResources] Unable to locate jre src.zip for JAVA_HOME: /usr/lib/jvm/java-6-openjdk/jre
+2011-02-15 17:29:46,983 INFO  [org.eclim.eclipse.AbstractEclimApplication] Shutting down eclim...
+2011-02-15 17:29:46,983 INFO  [org.eclim.eclipse.AbstractEclimApplication] Stopping plugin org.eclim.core
+2011-02-15 17:29:46,985 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.maven
+2011-02-15 17:29:46,997 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2011-02-15 17:29:46,998 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.ant
+2011-02-15 17:29:46,999 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim stopped.
+2011-02-15 17:35:10,127 INFO  [org.eclim.eclipse.AbstractEclimApplication] Workspace: /home/lihex/workspace/elim
+2011-02-15 17:35:10,130 INFO  [org.eclim.eclipse.AbstractEclimApplication] Starting eclim...
+2011-02-15 17:35:10,130 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim
+2011-02-15 17:35:10,171 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim.core
+2011-02-15 17:35:10,370 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2011-02-15 17:35:10,415 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.maven
+2011-02-15 17:35:10,417 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2011-02-15 17:35:10,426 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.ant
+2011-02-15 17:35:10,427 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2011-02-15 17:35:10,427 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loaded plugin org.eclim.core
+2011-02-15 17:35:10,432 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim Server Started on port 9091.
+2011-02-15 17:35:10,512 WARN  [org.eclim.plugin.jdt.PluginResources] Unable to locate jre src.zip for JAVA_HOME: /usr/lib/jvm/java-6-openjdk/jre
+2011-02-15 17:54:33,025 INFO  [org.eclim.eclipse.AbstractEclimApplication] Shutting down eclim...
+2011-02-15 17:54:33,025 INFO  [org.eclim.eclipse.AbstractEclimApplication] Stopping plugin org.eclim.core
+2011-02-15 17:54:33,031 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.maven
+2011-02-15 17:54:33,031 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2011-02-15 17:54:33,039 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.ant
+2011-02-15 17:54:33,040 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim stopped.
+2011-02-15 18:06:06,643 INFO  [org.eclim.eclipse.AbstractEclimApplication] Workspace: /home/lihex/workspace/elim
+2011-02-15 18:06:06,646 INFO  [org.eclim.eclipse.AbstractEclimApplication] Starting eclim...
+2011-02-15 18:06:06,646 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim
+2011-02-15 18:06:06,855 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim.core
+2011-02-15 18:06:06,998 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2011-02-15 18:06:07,001 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.maven
+2011-02-15 18:06:07,002 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2011-02-15 18:06:07,007 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.ant
+2011-02-15 18:06:07,008 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2011-02-15 18:06:07,008 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loaded plugin org.eclim.core
+2011-02-15 18:06:07,016 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim Server Started on port 9091.
+2011-02-15 18:06:07,286 WARN  [org.eclim.plugin.jdt.PluginResources] Unable to locate jre src.zip for JAVA_HOME: /usr/lib/jvm/java-6-openjdk/jre
+2011-02-15 18:06:25,635 INFO  [org.eclim.eclipse.AbstractEclimApplication] Shutting down eclim...
+2011-02-15 18:06:25,643 INFO  [org.eclim.eclipse.AbstractEclimApplication] Stopping plugin org.eclim.core
+2011-02-15 18:06:26,046 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.maven
+2011-02-15 18:06:26,047 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.jdt
+2011-02-15 18:06:26,052 INFO  [org.eclim.plugin.core.CorePlugin] Stopping plugin org.eclim.ant
+2011-02-15 18:06:26,057 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim stopped.
+2011-02-15 18:06:45,756 INFO  [org.eclim.eclipse.AbstractEclimApplication] Workspace: /home/lihex/workspace/elim
+2011-02-15 18:06:45,760 INFO  [org.eclim.eclipse.AbstractEclimApplication] Starting eclim...
+2011-02-15 18:06:45,760 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim
+2011-02-15 18:06:45,971 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loading plugin org.eclim.core
+2011-02-15 18:06:46,096 INFO  [org.eclim.plugin.core.CorePlugin] Loading eclim plugins...
+2011-02-15 18:06:46,099 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.maven
+2011-02-15 18:06:46,100 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.jdt
+2011-02-15 18:06:46,105 INFO  [org.eclim.plugin.core.CorePlugin] Loading plugin org.eclim.ant
+2011-02-15 18:06:46,106 INFO  [org.eclim.plugin.core.CorePlugin] Plugins loaded.
+2011-02-15 18:06:46,106 INFO  [org.eclim.eclipse.AbstractEclimApplication] Loaded plugin org.eclim.core
+2011-02-15 18:06:46,111 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim Server Started on port 9091.
+2011-02-15 18:06:46,679 WARN  [org.eclim.plugin.jdt.PluginResources] Unable to locate jre src.zip for JAVA_HOME: /usr/lib/jvm/java-6-openjdk/jre
+2011-02-15 18:08:11,619 INFO  [org.eclim.eclipse.AbstractEclimApplication] Shutting down eclim...
+2011-02-15 18:08:11,622 INFO  [org.eclim.eclipse.AbstractEclimApplication] Stopping plugin org.eclim.core
+2011-02-15 18:08:11,624 INFO  [org.eclim.eclipse.AbstractEclimApplication] Eclim stopped.

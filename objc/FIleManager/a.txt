@@ -1,0 +1,7 @@
+/usr/./share/GNUstep/Documentation/Developer/Base/Reference/NSString.gsdoc
+/usr/./share/GNUstep/Documentation/Developer/Base/Reference/NSString.html
+/usr/./share/GNUstep/Documentation/Developer/Gui/Reference/NSStringDrawing.html
+/usr/./share/GNUstep/Documentation/Developer/Gui/Reference/NSStringDrawing.gsdoc
+/usr/./include/GNUstep/AppKit/NSStringDrawing.h
+/usr/./include/GNUstep/Foundation/NSString.h
+/usr/./include/GNUstep/Frameworks/Cynthiune.framework/Versions/0/NSStringExtensions.h

@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613649
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762613650
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762617960
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762636676
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762640067
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762670761
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762693314
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762718313
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297762723633
+opened,view,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.views.ProblemView",1297762723846
+activated,view,org.eclim,1.6.1,"org.eclim.eclipse.headed.EclimdView",1297762725178
+activated,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297762728357
+error,log,,,"Unhandled event loop exception",1297762728438
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762731803
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762806816
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1297762808914
+started,bundle,org.eclipse.jdt.junit,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit",1297762809813
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762819567
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762825279
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762827647
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762839615
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762858576
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762866016
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762870399
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.newWizard",1297762871551
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762871568
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1297762881849
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762916610
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762921970
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762936642
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762936722
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762938178
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297762938450
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762948765
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297762950125
+closed,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297762950163
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762952152
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762952158
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762952165
+activated,view,org.eclim,1.6.1,"org.eclim.eclipse.headed.EclimdView",1297762954775
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297762954775
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297762955729
+opened,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297762957872
+activated,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297762957893
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297762957907
+activated,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297762958117
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297762965192
+closed,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297762965221
+opened,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297762967722
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297762967827
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.delete",1297762980296
+started,bundle,org.eclipse.mylyn.ide.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ui",1297762981944
+started,bundle,org.eclipse.mylyn.java.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.ui",1297762981988
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297762982163
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1297762985021
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297762985698
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763024975
+activated,view,org.eclim,1.6.1,"org.eclim.eclipse.headed.EclimdView",1297763025855
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763028836
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763071799
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297763073043
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297763076359
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297763077541
+executed,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.open.editor",1297763077547
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297763078782
+opened,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763082984
+activated,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763083042
+error,log,,,"Unhandled event loop exception",1297763083142
+error,log,,,"Unhandled event loop exception",1297763084399
+error,log,,,"Unhandled event loop exception",1297763085398
+error,log,,,"Unhandled event loop exception",1297763086112
+error,log,,,"Unhandled event loop exception",1297763086639
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093430
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093430
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093431
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093431
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093431
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093431
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093431
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093431
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093432
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093432
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093432
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093432
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093432
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093432
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093433
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093433
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093433
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093433
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093433
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093433
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093434
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093434
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093434
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093434
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093434
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093434
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093434
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093435
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093435
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093435
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093435
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093435
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093435
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093435
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093436
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093436
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093436
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093436
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093436
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093436
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093437
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093437
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093437
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093437
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093437
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093437
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093438
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093438
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093438
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093438
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093438
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093438
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093438
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093439
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093439
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093439
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093439
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093439
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093440
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093440
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093440
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093440
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093440
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093440
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093441
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093441
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093441
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093441
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093441
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093441
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093442
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093442
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093442
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093442
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093442
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093442
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093442
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.text.contentAssist.proposals",1297763093443
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763095383
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763099095
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.print",1297763104598
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763108375
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.print",1297763109398
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763119209
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763121703
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763127079
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763129864
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763137816
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763139400
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763139688
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763147368
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763152568
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763163961
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763164233
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763191033
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763199002
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763199258
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1297763220519
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297763223732
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297763225619
+activated,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763226824
+error,log,,,"Unhandled event loop exception",1297763226901
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297763227660
+closed,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763227716
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763230657
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763552669
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297763570611
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1297763570722
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297763572264
+executed,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.open.editor",1297763572268
+activated,view,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.PackageExplorer",1297763573243
+opened,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763577146
+activated,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763577202
+error,log,,,"Unhandled event loop exception",1297763577307
+no handler,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.cut",1297763601061
+no handler,command,org.eclipse.gef,,"org.eclipse.gef.zoom_out",1297763638837
+no handler,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1297763639925
+no handler,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1297763640469
+no handler,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1297763640869
+no handler,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1297763641285
+no handler,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1297763644757
+no handler,command,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1297763645493
+activated,view,org.eclim,1.6.1,"org.eclim.eclipse.headed.EclimdView",1297763651090
+activated,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763655409
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763655569
+activated,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297763657076
+closed,editor,org.eclim.vimplugin,1.6.1,"org.vimplugin.editors.VimEditor",1297763657113
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763658173
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763658186
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763658194
+activated,view,org.eclim,1.6.1,"org.eclim.eclipse.headed.EclimdView",1297763659380
+closed,editor,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297763659381
+stopped,bundle,org.eclim.maven,1.6.1,"org.eclim.maven",1297763673039
+stopped,bundle,org.eclim.jdt,1.6.1,"org.eclim.jdt",1297763673039
+stopped,bundle,org.eclim.ant,1.6.1,"org.eclim.ant",1297763673040
+stopped,bundle,org.eclim.core,1.6.1,"org.eclim.core",1297763673040
+closed,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1297763673083
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.exit",1297763673710
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ant",1297763673746
+stopped,bundle,org.eclipse.ant.ui,3.5.0.v20100427,"org.eclipse.ant.ui",1297763673746
+stopped,bundle,org.eclipse.ant.launching,1.0.0.v20100427,"org.eclipse.ant.launching",1297763673746
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20100513,"org.eclipse.equinox.p2.ui.sdk",1297763673747
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.tasks",1297763673747
+stopped,bundle,org.eclipse.mylyn.java.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.ui",1297763673748
+stopped,bundle,org.eclipse.jdt.junit,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.junit",1297763673748
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.300.v20100513-0845,"org.eclipse.jdt.apt.ui",1297763673748
+stopped,bundle,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui",1297763673748
+stopped,bundle,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui",1297763673795
+stopped,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1297763673795
+stopped,bundle,org.eclipse.wst.xsd.ui,1.2.303.v201004290328,"org.eclipse.wst.xsd.ui",1297763673795
+stopped,bundle,org.eclipse.wst.xml.ui,1.1.102.v201008251905,"org.eclipse.wst.xml.ui",1297763673795
+stopped,bundle,org.eclipse.wst.common.ui,1.1.500.v200911190730,"org.eclipse.wst.common.ui",1297763673795
+stopped,bundle,org.eclipse.wst.sse.ui,1.2.2.v201008232126,"org.eclipse.wst.sse.ui",1297763673801
+stopped,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1297763673801
+stopped,bundle,org.eclipse.mylyn.team.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.team.ui",1297763673801
+stopped,bundle,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.resources",1297763673801
+stopped,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1297763673801
+stopped,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1297763673802
+stopped,bundle,org.eclipse.mylyn.ide.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ui",1297763673802
+stopped,bundle,org.eclipse.mylyn.resources.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.resources.ui",1297763673802
+stopped,bundle,org.eclipse.mylyn.wikitext.tasks.ui,1.3.1.v20100823-0100-e3x,"org.eclipse.mylyn.wikitext.tasks.ui",1297763673802
+stopped,bundle,org.eclipse.mylyn.context.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.ui",1297763673802
+stopped,bundle,org.eclipse.mylyn.help.ui,3.4.1.v20100823-0100-e3x,"org.eclipse.mylyn.help.ui",1297763673802
+stopped,bundle,org.eclipse.mylyn.tasks.bugs,3.4.1.v20100823-0100-e3x,"org.eclipse.mylyn.tasks.bugs",1297763673803
+stopped,bundle,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui",1297763673803
+stopped,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1297763673804
+stopped,bundle,org.eclipse.team.ui,3.5.101.R36x_v20100825-0800,"org.eclipse.team.ui",1297763673804
+stopped,bundle,org.eclipse.compare,3.5.100.I20100526-0800,"org.eclipse.compare",1297763673805

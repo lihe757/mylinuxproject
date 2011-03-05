@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project SoundAnalysis ****
+
+make all 
+Building file: ../src/TestMain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestMain.d" -MT"src/TestMain.d" -o"src/TestMain.o" "../src/TestMain.cpp"
+In file included from ../src/TestMain.cpp:9:
+../src/SoundAnalysis.h:15: error: expected unqualified-id before ‘[’ token
+../src/SoundAnalysis.h:18: error: expected unqualified-id before ‘}’ token
+make: *** [src/TestMain.o] 错误 1

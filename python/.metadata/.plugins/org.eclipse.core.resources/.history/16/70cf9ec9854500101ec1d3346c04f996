@@ -1,0 +1,19 @@
+'''
+Created on 2011-3-3
+
+@author: lihex
+'''
+def factorial(number):
+    if number==1:
+        return 1
+    return number*factorial(number-1)
+def sum_toE(count):
+    for x in range(10):
+        x++
+        print x
+    
+
+        
+if __name__ == '__main__':
+    retv = factorial(4)
+    print retv

@@ -1,0 +1,63 @@
+import urllib
+import codecs
+from BeautifulSoup import BeautifulSoup, Tag
+from sys import argv
+import re,time
+
+class Translate:
+    def Start(self):
+        self._get_html_sourse()
+        self._get_content("tb1")
+        self._remove_tag()
+#        self.print_result()
+
+    def _get_html_sourse(self):
+        word=argv[1] if len(argv)>1 else ''
+        url="http://www.putclub.com/article.php?articleid=4672" 
+        self.htmlsourse=unicode(urllib.urlopen(url).read(),"gbk","ignore").encode("utf-8","ignore")
+#        print self.htmlsourse
+        
+    def _get_content(self,div_id):
+        soup=BeautifulSoup("".join(self.htmlsourse))
+        self.data=str(soup.find("table",{"class":div_id}))
+#        print self.data
+        
+        print "------------"
+        
+        soup2=BeautifulSoup(self.data)
+        self.title=soup2.findAll("td", {"id":"table_t"})
+        for t in self.title:
+            print t.getText()
+            
+        mp3url=soup2.findAll("td",id=re.compile("table_[cr]"))
+        
+        self.mp3urls=list()
+        for u in mp3url:
+            urlAday= list()
+            urlAday= u.findAll("a",href=re.compile("mp3$"))
+            self.mp3urls.insert(0, urlAday)
+        print self.mp3urls
+        print self.mp3urls.__len__()
+        
+#        生成字典    
+    def _remove_tag(self):
+        self.urlDict= dict()
+        urls=list()
+        a=0
+        for day in self.mp3urls:
+            for one in day:
+                urls.append(one.__getattribute__("attrs")[1][1]) 
+            self.urlDict[unicode(self.title[a].getText())]=urls
+            a=a+1
+#        print self.urlDict
+#        print self.urlDict[self.title[0].getText()]
+                
+#        print t.__getattribute__("attrs")[1][1]
+        
+
+    def print_result(self):
+        print self.urlDict
+
+
+if __name__=="__main__":
+    Translate().Start()

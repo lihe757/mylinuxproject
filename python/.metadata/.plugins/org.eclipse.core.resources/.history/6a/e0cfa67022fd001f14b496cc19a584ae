@@ -1,0 +1,14 @@
+/*
+ * TestMain.h
+ *
+ *  Created on: 2010-12-1
+ *      Author: lihex
+ */
+
+#ifndef TESTMAIN_H_
+#define TESTMAIN_H_
+
+class TestMain {
+};
+
+#endif /* TESTMAIN_H_ */

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SoundAnalysis/src/SoundAnalysis.cpp&apos; to &apos;SoundAnalysis.h&apos;" description="Rename resource &apos;SoundAnalysis.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/SoundAnalysis.cpp" name="SoundAnalysis.h" stamp="1291191106865" updateReferences="true"/>
+</session>

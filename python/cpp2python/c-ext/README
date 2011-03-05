@@ -1,0 +1,8 @@
+1.Write your c/c++ implemention of python module
+2.Write setup.py
+3.Run "setup.py build",it will generate "build" dictionary
+4.End-users use "python setup.py install"
+
+Reference Page
+http://docs.python.org/extending/building.html#building
+http://docs.python.org/extending/extending.html#calling-python-functions-from-c

@@ -1,0 +1,128 @@
+#include "stdio.h"
+#include "stdlib.h"
+#include "time.h"
+char Key_up = 20;
+char Key_down = 21;
+char Key_left = 23;
+char Key_right = 22;
+char Key_enter = 13;
+char Key_esc = 27;
+int a[3][3] = { 0 };
+int keyUD, keyLR;
+int c = 2, r = 2;
+void Fill(int *p) {
+	int i;
+	int rdnum;//随即数
+	//int *p;数组指针
+	for (i = 0; i < 8; i++) { //*(p+i)=i+1;
+		while (1) {
+			randomize();
+			rdnum = rand() % 9;
+
+			if (*(p + rdnum) == 0) {
+				printf("%d \n", rdnum);
+				*(p + rdnum) = i + 1;
+				break;
+			}
+
+		}
+	}
+
+}
+void getstart() {
+	int i;
+	int *p;
+	p = &a;
+	for (i = 0; i < 8; i++)
+		if (*(p + i) == 0) {
+			c = i / 3;
+			r = i % 3;
+			break;
+		}
+
+}
+//显示矩阵
+void Show() {
+	int x, y;//x为行号 y列号
+	for (x = 0; x < 3; x++) {
+		for (y = 0; y < 3; y++) {
+			printf("%d ", a[x][y]);
+		}
+		printf("\n");
+	}
+}
+//获得按键
+void GetKey() {
+	char key;
+	key = 0;
+	keyUD = 0;
+	keyLR = 0;
+	while ((keyUD + keyLR) == 0) {
+
+		while ((key = getch()) == 0)
+			;
+		if (key == 'w')
+			keyUD = -1;
+		else if (key == 's')
+			keyUD = 1;
+		else if (key == 'a')
+			keyLR = -1;
+		else if (key == 'd')
+			keyLR = 1;
+		else if (key == Key_enter)
+			keyUD = 2;
+		else if (key == Key_esc)
+			keyUD = 4;
+
+	}
+}
+//控制
+void Move() {
+	int x, y, z = 0, z2 = 0;
+	x = c;
+	y = r;
+	x = x - keyUD;
+	y = y - keyLR;
+	if (x <= 2 && x >= 0)
+		z = 1;
+	if (y <= 2 && y >= 0)
+		z2 = 1;
+	if (z * z2 == 1) {
+		z = a[x][y];
+		a[x][y] = 0;
+		a[c][r] = z;
+		c = x;
+		r = y;
+	}
+
+}
+//
+int Check(int *p2) {
+
+	int i, TF = 1;
+	for (i = 0; i < 8; i++) {
+		if (*(p2 + i) != i + 1) {
+			TF = 0;
+			break;
+		}
+
+	}
+	return TF;
+
+}
+void main() {
+	int num = 0;
+	Fill(&a);
+	getstart();
+
+	while (1) {
+		Show();
+		if (Check(&a) == 1)
+			break;
+		GetKey();
+		printf("\n%d\n", num++);
+		Move();
+	}
+	printf("\nYou are win the game!!\n");
+	getchar();
+}
