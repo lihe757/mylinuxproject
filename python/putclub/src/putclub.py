@@ -1,7 +1,9 @@
 #-*- coding: UTF-8 -*-    
 import urllib
 from BeautifulSoup import BeautifulSoup
-import re
+from sys import argv
+import re,time
+import os
 
 class Translate:
     def Start(self):
@@ -22,9 +24,10 @@ class Translate:
 #        print "------------"
         
         soup2=BeautifulSoup(self.data)
-        self.title=soup2.findAll("td", {"id":"table_t"})
-#        for t in self.title:
-#            print t.getText()
+        title=soup2.findAll("td", {"id":"table_t"})
+        self.title=list()
+        for t in title:
+            self.title.append(t.getText().encode('utf-8'))
             
         urlAday= list()
         mp3url=soup2.findAll("td",id=re.compile("table_[cr]"))
@@ -49,13 +52,63 @@ class Translate:
 #        print self.urlDict[self.title[0].getText()]
                 
     def print_result(self):
-        index=0
-        for title in self.title:
-            print title.getText().encode('utf8')
-            for url in self.urlDict[index]:
-                print url
-            index+=1
-        pass
+        option = argv[1] if len(argv)>1 else ''
+        option2= argv[2] if len(argv)>2 else ''
+        if option=='all':
+            print "<html>"
+            print "<body>"
+            index=0
+            for title in self.title:
+                print title+"</br>"
+                for url in self.mp3urls[index]:
+                    print url
+                    print "</br>"
+                index+=1
+            print "</body>"
+            print "</html>"
+        if option=='date':
+            print "<html>"
+            print "<body>"
+            curDate = time.localtime()
+            curYear_Month_Day = (curDate.__getattribute__('tm_year')\
+                                 ,curDate.__getattribute__('tm_mon')\
+                                 ,curDate.__getattribute__('tm_mday')
+                                 )
+            index=0
+            for t in self.title:
+                if int(t.__getslice__(10,12))==int(curYear_Month_Day[1]) \
+                       and \
+                       int(t.__getslice__(12,14))==int(curYear_Month_Day[2]):
+                    print t + '</br>' 
+                    print "Report</br>"
+                    if option2=='down':
+                        #替换mp3路径
+                        modify =self.mp3urls[index][1]
+                        newurl=modify.attrMap['href'].split(u'/').pop()
+                        newHref=(u'href','mp3/'+newurl)
+                        modify.attrs.__delitem__(1)
+                        modify.attrs.insert(1,newHref)
+                        print modify
+                        #调用wget下载mp3
+                        down_url= self.mp3urls[index][1].attrMap["href"]
+                        if not os.path.exists("mp3"):
+                            os.mkdir("mp3")
+                        os.chdir("mp3")
+                        if os.path.exists(newurl):
+                            os.remove(newurl)
+                        os.system("wget "+down_url)
+                    else:
+                        print self.mp3urls[index][1]
+                index+=1
+            print "</body>"
+            print "</html>"
+            
+        else:
+            print "option:\n \
+                all: downall\n \
+                date: down_today\n \
+                date down: download mp3"
+            
 
 if __name__=="__main__":
     Translate().Start()
