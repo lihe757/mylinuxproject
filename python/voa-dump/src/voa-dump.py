@@ -25,8 +25,8 @@ class Translate:
 #       print self.data
 #       print "------------"
         
-        soup2 = BeautifulSoup(self.data)
-        self.title = soup2.findAll("div", {"class":"list-item2"})
+        articleSoup = BeautifulSoup(self.data)
+        self.title = articleSoup.findAll("div", {"class":"list-item2"})
 #        print self.title
 		#解析分类
         self.mapArticles=list()
@@ -53,7 +53,13 @@ class Translate:
             htmlsourse = urllib.urlopen(nexturl).read()
             nextSoup = BeautifulSoup(htmlsourse)
             aArticle = nextSoup.find("div", {"id":"articleFulltext"})
-            aMap[u'article'] = aArticle
+            
+            #取出img原始
+            articleSoup =BeautifulSoup(aArticle.__str__())
+            rmImgs=articleSoup.img
+            if not rmImgs==None:
+                rmImgs.extract()
+            aMap[u'article'] = articleSoup.__str__()
             
             self.mapArticles.append(aMap)
         
