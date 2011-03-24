@@ -87,7 +87,7 @@ class Translate:
             if not os.path.exists("mp3"):
                 os.mkdir("mp3")
             os.chdir("mp3")
-            if not os.path.exists(aMap[u'downMp3Url']) and not aMap[u'downMp3Url']==None:
+            if not os.path.exists(aMap[u'name']) and aMap[u'downMp3Url']!=None:
                 os.system("wget "+aMap[u'downMp3Url'])            
             os.chdir("..")
 
