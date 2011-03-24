@@ -2,8 +2,7 @@
 #-*- coding: UTF-8 -*-    
 import urllib
 from BeautifulSoup import BeautifulSoup
-from sys import argv
-import re, time
+import re
 import os
 
 class Translate:
@@ -38,8 +37,10 @@ class Translate:
     #        print "日期："+aDate
             aNextCurl = title.find("a", {"class":"black"}).attrMap[u'href']
     #        print "文章地址："+aNextCurl
-            aMp3Url = title.find("a", href=re.compile("mp3$")).attrMap[u'href']
-    #        print aMp3Url
+            aMp3Url = title.find("a", href=re.compile("mp3$"))
+            if not aMp3Url == None:
+                aMp3Url = aMp3Url.attrMap[u'href']
+            #print aMp3Url
             aMap = dict()
             aMap[u'category'] = aCategory
             aMap[u'date'] = aDate
@@ -86,7 +87,7 @@ class Translate:
             if not os.path.exists("mp3"):
                 os.mkdir("mp3")
             os.chdir("mp3")
-            if not os.path.exists(aMap[u'name']):
+            if not os.path.exists(aMap[u'downMp3Url']) and not aMap[u'downMp3Url']==None:
                 os.system("wget "+aMap[u'downMp3Url'])            
             os.chdir("..")
 
