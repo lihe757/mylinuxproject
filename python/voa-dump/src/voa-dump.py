@@ -8,7 +8,7 @@ import os
 class Translate:
     def Start(self):
         self._get_html_sourse()
-        self._get_content("float-lr2 w350")
+        self._parseHtml("float-lr2 w350")
         self._genrealHtml()
         
 #        获取网页源码
@@ -18,7 +18,7 @@ class Translate:
 #        print self.htmlsourse
 
 #        解析带有mp3链接的表格元素
-    def _get_content(self, div_id):
+    def _parseHtml(self, div_id):
         soup = BeautifulSoup("".join(self.htmlsourse))
         self.data = str(soup.find("div", {"class":div_id}))
 #       print self.data
@@ -31,6 +31,7 @@ class Translate:
         self.mapArticles=list()
         for title in self.title:
     #        print self.title
+            aMap = dict()
             aCategory = title.find("strong").getText()
     #        print "分类："+aCategory
             aDate = title.find("i").getText()
@@ -40,12 +41,13 @@ class Translate:
             aMp3Url = title.find("a", href=re.compile("mp3$"))
             if not aMp3Url == None:
                 aMp3Url = aMp3Url.attrMap[u'href']
+                aMap[u'name'] =aMp3Url.split('/').pop()
+            else:
+                aMap[u'name'] =""
             #print aMp3Url
-            aMap = dict()
             aMap[u'category'] = aCategory
             aMap[u'date'] = aDate
             aMap[u'downMp3Url'] = aMp3Url
-            aMap[u'name'] =aMp3Url.split('/').pop()
             aMap[u'articleUrl'] = u"http://www.unsv.com"+aNextCurl
             print aMap[u'articleUrl']
             
@@ -68,24 +70,35 @@ class Translate:
         
 #        生成字典    
     def _genrealHtml(self):
+        #get a flash plyer
+        if not os.path.exists("mp3"):
+            os.mkdir("mp3")
+        os.chdir("mp3")
+        if not os.path.exists("mp3Player_black.swf"):
+            os.system("wget http://home.putclub.com/mp3Player_black.swf")
+        os.chdir("..")
 
+        #begin to generate html
         for aMap in self.mapArticles:
             if not os.path.exists(aMap[u'category']):
                 os.mkdir(aMap[u'category'])
             os.chdir(aMap[u'category'])
+            #write html head
             f =file(aMap[u'date']+".html",'w')
-            f.write("<html>\
-                        <body>"
-                    )
-            str ="<a href=../mp3/"+aMap[u'name']+" target=\"_Blank\">Download MP3</a></br>"
-            f.write(str)
+            f.write("<html><body>")
+            #embed a flash plyer 
+            flashText=r'<embed src="../mp3/mp3Player_black.swf" flashvars="mytitle='+aMap[u'category']+aMap[u'date']+r'&amp;myurl=../mp3/'+aMap[u'name']+r'&amp;autoplay=false" quality="high" bgcolor="#ffffff" width="580" height="120" name="mp3Player_black" align="middle" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_cn">'
+            f.write(flashText)
+            #embed a html5 mp3 plyer
+            mp3PlayerText=r'</br><audio controls preload="auto" autobuffer ><source src="../mp3/'+aMap[u'name']+r'"/></audio>'
+            f.write(mp3PlayerText)
+            f.write(r'</br><a href="../mp3/'+aMap[u'name']+r'" target="Blank">Download MP3</a>')
             f.write(aMap[u'article'].__str__())
-            f.write("    </body>\
-                    </html>"
-                    )
+            f.write("</body></html>")
+            #end of html
             os.chdir("..")
-            if not os.path.exists("mp3"):
-                os.mkdir("mp3")
+
+            #download mp3
             os.chdir("mp3")
             if not os.path.exists(aMap[u'name']) and aMap[u'downMp3Url']!=None:
                 os.system("wget "+aMap[u'downMp3Url'])            
