@@ -1,0 +1,47 @@
+<head>
+    <style type="text/css">
+        h1 {background-color:#00ff00 ;text-align: center}
+    </style>
+</head>
+<script>
+    //候选人数组
+    var gpeople=new Array("Saab","Volo","BMW","Colo","GieW","sdf","dfds","23gsd");
+    function showPeople()
+    {
+        var html="";
+        var x=0;
+        for(x in gpeople)
+        {
+            html+="<p align='center'>"+"候选人"+x+"号："+gpeople[x]+"</p>";
+ 
+        }
+            document.getElementById('pep').innerHTML=html;
+    }
+    var i=0;
+    var t;
+    function timedText()
+    {
+        var vNum;
+        vNum=Math.random();
+        vNum=Math.round(vNum*gpeople.length)%gpeople.length;
+        var name=gpeople[vNum];
+
+        document.getElementById('txt').innerHTML="<h1>"+name+","+vNum+"</h1>";
+        t=setTimeout('timedText()',70)
+        
+    }
+    function stop()
+    {
+        clearTimeout(t);
+    }
+</script>
+<body onload="showPeople()">
+
+    <form>
+        <input type="button" value="开始" onClick="timedText()">
+        <input type="button" value="结束" onClick="stop()">
+    </form>
+    <div id="txt"></div>
+    <div id="pep"></div>
+</body>
+
